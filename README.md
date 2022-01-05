@@ -8,7 +8,7 @@ This repository shows 5 scenarios:
 2. [✓] jest unit test with version 11.1.3 with a `next.config.js`
 3. [✓] jest unit test with version 12.0.7 without a `next.config.js`
 4. [✗] jest unit test with version 12.0.7 with a `next.config.js`
-5. [✓] jest unit test with version 12.0.7 with a `next.config.js` with custom server options `conf: require('next.config')`
+5. [✓] jest unit test with version 12.0.7 with a `next.config.js` with custom server options `conf: require('./next.config')`
 6. [✗] jest unit test with version canary with a `next.config.js` and `segfault-handler`
 
 It seems there is an issue resolving next.config.js in the latest version that is causing the jest tests to exit before completing
