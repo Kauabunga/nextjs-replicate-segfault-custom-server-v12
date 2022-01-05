@@ -17,6 +17,8 @@ It seems there is an issue resolving next.config.js in the latest version that i
 error Command failed with signal "SIGSEGV".
 ```
 
+## Setup
+
 To replicate each scenario:
 
 1. navigate the terminal into the scenario folder
