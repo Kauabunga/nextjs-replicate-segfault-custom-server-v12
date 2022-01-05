@@ -1,6 +1,9 @@
 const next = require("next");
 const request = require("supertest");
 
+const SegfaultHandler = require("segfault-handler");
+SegfaultHandler.registerHandler("crash.log");
+
 describe("Test custom next server", () => {
   it("should prepare a custom nextjs server", async () => {
     const app = next({
